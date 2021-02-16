@@ -82,7 +82,7 @@ public class ClientHandler {
         }
     }
 
-    private void updateUsernameInChat(String newUsername){
+    private void updateUsernameInChat(String newUsername) {
         myServer.broadcastMessage(String.format(">>> %s изменил имя на %s", username, newUsername), this, true);
         username = newUsername;
         myServer.broadcastUserListMessage();
@@ -135,14 +135,18 @@ public class ClientHandler {
         String[] parts = message.split("\\s+", 3);
         String newUsername = parts[1];
         AuthService authService = myServer.getAuthService();
-        if(authService.updateUsername(newUsername, username)){
+        if (authService.updateUsername(newUsername, username)) {
             return newUsername;
         }
         return null;
     }
 
 
-    private boolean verification(String login, String password) throws IOException {
+    private boolean processAuthCommand(String message) throws IOException {
+        String[] parts = message.split("\\s+", 3);
+        String login = parts[1];
+        String password = parts[2];
+
         AuthService authService = myServer.getAuthService();
         username = authService.getUserNameByLoginAndPassword(login, password);
         if (username != null) {
@@ -158,14 +162,6 @@ public class ClientHandler {
             out.writeUTF(AUTHERR_CMD_PREFIX + " Логин или пароль неверны");
             return false;
         }
-    }
-
-    private boolean processAuthCommand(String message) throws IOException {
-        String[] parts = message.split("\\s+", 3);
-        String login = parts[1];
-        String password = parts[2];
-
-        return verification(login, password);
     }
 
     public String getUsername() {

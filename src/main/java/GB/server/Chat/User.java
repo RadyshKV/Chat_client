@@ -14,10 +14,6 @@ public class User {
         this.username = username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
     public String getLogin() {
         return login;
     }
@@ -28,6 +24,10 @@ public class User {
 
     public String getUsername() {
         return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     @Override

@@ -30,8 +30,8 @@ public class AuthController {
         }
 
         String authErrorMessage = network.sendAuthCommand(login, password);
-        if (authErrorMessage == null){
-            mainChatGB.openChat();
+        if (authErrorMessage == null) {
+            mainChatGB.openChat(login);
         } else {
             loginField.clear();
             passwordField.clear();

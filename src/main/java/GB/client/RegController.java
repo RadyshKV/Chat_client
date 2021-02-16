@@ -36,7 +36,7 @@ public class RegController {
         }
 
         String errorMessage = network.sendRegCommand(login, username, password);
-        if (errorMessage == null){
+        if (errorMessage == null) {
             mainChatGB.openAuthDialog();
         } else {
             Alert alert = new Alert(Alert.AlertType.ERROR);

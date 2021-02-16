@@ -2,7 +2,7 @@ package GB.server.auth;
 
 import java.sql.*;
 
-public class BaseAuthService implements AuthService{
+public class BaseAuthService implements AuthService {
 
     public static Connection connection;
     public static Statement stmt;

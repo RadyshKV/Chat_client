@@ -18,6 +18,7 @@ public class ChatGB extends Application {
     private ChatController chatController;
     private RegController regController;
     private AuthController authController;
+    private History history;
 
     public static void main(String[] args) {
         launch(args);
@@ -60,7 +61,7 @@ public class ChatGB extends Application {
         authController.setChat(this);
     }
 
-    public void openChat(){
+    public void openChat(String login) {
         authStage.close();
         regStage.close();
         primaryStage.show();
@@ -68,6 +69,9 @@ public class ChatGB extends Application {
         //primaryStage.setAlwaysOnTop(true);
         network.waitMessage(chatController);
         chatController.setUsernameTitle(network.getUsername());
+        history = new History(login);
+        chatController.setHistory(history);
+        chatController.loadHistory();
     }
 
     private void createRegDialog() throws IOException {

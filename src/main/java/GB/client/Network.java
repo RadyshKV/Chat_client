@@ -26,13 +26,11 @@ public class Network {
 
     private static final int DEFAULT_SERVER_SOCKET = 8888;
     private static final String DEFAULT_SERVER_HOST = "localhost";
-
+    private final int port;
+    private final String host;
     private Socket socket;
     private DataInputStream in;
     private DataOutputStream out;
-
-    private final int port;
-    private final String host;
     private String username;
 
     public Network(String host, int port) {
@@ -40,13 +38,13 @@ public class Network {
         this.host = host;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
     public Network() {
         this.host = DEFAULT_SERVER_HOST;
         this.port = DEFAULT_SERVER_SOCKET;
+    }
+
+    public String getUsername() {
+        return username;
     }
 
     public void connect() {
