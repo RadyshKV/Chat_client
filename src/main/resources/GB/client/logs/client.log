@@ -1,0 +1,47 @@
+2021-03-09 16:43:00,086 WARN ClientLogger [JavaFX Application Thread] Ошибка авторизации
+2021-03-09 17:14:16,417 INFO ClientLogger [JavaFX Application Thread] Соединение установлено
+2021-03-09 17:14:16,777 INFO ClientLogger [JavaFX Application Thread] Авторизация
+2021-03-09 17:14:16,857 INFO ClientLogger [JavaFX Application Thread] Клиент запущен
+2021-03-09 17:14:26,911 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /auth boris 2222
+2021-03-09 17:14:26,917 INFO ClientLogger [JavaFX Application Thread] Получено сообщение: /authok Борис_Николаевич
+2021-03-09 17:14:26,918 INFO ClientLogger [JavaFX Application Thread] Авторизация прошла успешно
+2021-03-09 17:14:26,919 INFO ClientLogger [JavaFX Application Thread] Авторизация пройдена
+2021-03-09 17:14:27,108 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:14:36,904 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: defergerg
+2021-03-09 17:14:39,802 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: sgerger
+2021-03-09 17:14:43,514 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /w Борис_Николаевич gegergera
+2021-03-09 17:14:43,520 INFO ClientLogger [Thread-3] Пользователь Борис_Николаевич прислал сообщение: gegergera
+2021-03-09 17:14:58,045 INFO ClientLogger [JavaFX Application Thread] Соединение установлено
+2021-03-09 17:14:58,471 INFO ClientLogger [JavaFX Application Thread] Авторизация
+2021-03-09 17:14:58,564 INFO ClientLogger [JavaFX Application Thread] Клиент запущен
+2021-03-09 17:15:04,743 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /auth martin 1111
+2021-03-09 17:15:04,746 INFO ClientLogger [JavaFX Application Thread] Получено сообщение: /authok Мартин_Некотов
+2021-03-09 17:15:04,747 INFO ClientLogger [JavaFX Application Thread] Авторизация прошла успешно
+2021-03-09 17:15:04,747 INFO ClientLogger [JavaFX Application Thread] Авторизация пройдена
+2021-03-09 17:15:04,749 INFO ClientLogger [Thread-3] Получено сообщение сервера: >>> Мартин_Некотов присоединился к чату
+2021-03-09 17:15:04,750 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:04,949 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:08,795 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: ergvergerg
+2021-03-09 17:15:08,799 INFO ClientLogger [Thread-3] Пользователь Мартин_Некотов прислал сообщение: ergvergerg
+2021-03-09 17:15:13,066 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /w Борис_Николаевич gergh
+2021-03-09 17:15:13,074 INFO ClientLogger [Thread-3] Пользователь Мартин_Некотов прислал сообщение: gergh
+2021-03-09 17:15:20,358 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /nckchg Мартин_Некотов1
+2021-03-09 17:15:20,439 INFO ClientLogger [Thread-3] Имя пользователя изменено на Мартин_Некотов1
+2021-03-09 17:15:20,440 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:20,440 INFO ClientLogger [Thread-3] Получено сообщение сервера: >>> Мартин_Некотов изменил имя на Мартин_Некотов1
+2021-03-09 17:15:20,441 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:32,792 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /nckchg Мартин_Некотов
+2021-03-09 17:15:32,866 INFO ClientLogger [Thread-3] Имя пользователя изменено на Мартин_Некотов
+2021-03-09 17:15:32,869 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:32,870 INFO ClientLogger [Thread-3] Получено сообщение сервера: >>> Мартин_Некотов1 изменил имя на Мартин_Некотов
+2021-03-09 17:15:32,871 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:15:37,517 INFO ClientLogger [Thread-3] Получено сообщение сервера: >>> Мартин_Некотов покинул чат
+2021-03-09 17:15:37,518 INFO ClientLogger [Thread-3] Получен список пользователей
+2021-03-09 17:19:17,689 INFO ClientLogger [JavaFX Application Thread] Соединение установлено
+2021-03-09 17:19:18,109 INFO ClientLogger [JavaFX Application Thread] Авторизация
+2021-03-09 17:19:18,188 INFO ClientLogger [JavaFX Application Thread] Клиент запущен
+2021-03-09 17:19:23,119 INFO ClientLogger [JavaFX Application Thread] Отправка сообщения: /auth boris 2222
+2021-03-09 17:19:23,122 INFO ClientLogger [JavaFX Application Thread] Получено сообщение: /authok Борис_Николаевич
+2021-03-09 17:19:23,123 INFO ClientLogger [JavaFX Application Thread] Авторизация прошла успешно
+2021-03-09 17:19:23,123 INFO ClientLogger [JavaFX Application Thread] Авторизация пройдена
+2021-03-09 17:19:23,306 INFO ClientLogger [Thread-3] Получен список пользователей

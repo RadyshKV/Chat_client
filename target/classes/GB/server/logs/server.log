@@ -1,0 +1,35 @@
+2021-03-09 16:35:32,823 INFO ServerLogger [main] Сервер запущен
+2021-03-09 16:35:32,825 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 16:35:44,958 INFO ServerLogger [main] Клиент подключился
+2021-03-09 16:35:44,960 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 16:36:00,463 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: jsdskjgds
+2021-03-09 16:36:02,390 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: вжмлдэывмп
+2021-03-09 16:36:03,127 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: ывамвы
+2021-03-09 16:36:03,490 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: вы
+2021-03-09 16:36:04,306 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: dssd
+2021-03-09 16:36:06,937 ERROR ServerLogger [Thread-0] Произошла ошибка Connection reset
+2021-03-09 16:42:37,762 INFO ServerLogger [main] Сервер запущен
+2021-03-09 16:42:37,764 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 16:42:42,936 INFO ServerLogger [main] Клиент подключился
+2021-03-09 16:42:42,938 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 16:42:54,764 INFO ServerLogger [main] Клиент подключился
+2021-03-09 16:42:54,764 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 16:43:09,460 ERROR ServerLogger [Thread-1] Произошла ошибка Connection reset
+2021-03-09 16:43:12,609 ERROR ServerLogger [Thread-0] Произошла ошибка Connection reset
+2021-03-09 17:14:11,586 INFO ServerLogger [main] Сервер запущен
+2021-03-09 17:14:11,587 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 17:14:16,418 INFO ServerLogger [main] Клиент подключился
+2021-03-09 17:14:16,425 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 17:14:36,906 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: defergerg
+2021-03-09 17:14:39,803 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: sgerger
+2021-03-09 17:14:43,516 INFO ServerLogger [Thread-0] Пользователь Борис_Николаевич прислал сообщение: /w Борис_Николаевич gegergera
+2021-03-09 17:14:58,045 INFO ServerLogger [main] Клиент подключился
+2021-03-09 17:14:58,045 INFO ServerLogger [main] Ожидание пользователя
+2021-03-09 17:15:08,796 INFO ServerLogger [Thread-1] Пользователь Мартин_Некотов прислал сообщение: ergvergerg
+2021-03-09 17:15:13,068 INFO ServerLogger [Thread-1] Пользователь Мартин_Некотов прислал сообщение: /w Борис_Николаевич gergh
+2021-03-09 17:15:20,360 INFO ServerLogger [Thread-1] Пользователь Мартин_Некотов прислал сообщение: /nckchg Мартин_Некотов1
+2021-03-09 17:15:20,438 INFO ServerLogger [Thread-1] Имя обновлено
+2021-03-09 17:15:32,793 INFO ServerLogger [Thread-1] Пользователь Мартин_Некотов1 прислал сообщение: /nckchg Мартин_Некотов
+2021-03-09 17:15:32,864 INFO ServerLogger [Thread-1] Имя обновлено
+2021-03-09 17:15:37,516 ERROR ServerLogger [Thread-1] Произошла ошибка Connection reset
+2021-03-09 17:16:16,827 ERROR ServerLogger [Thread-0] Произошла ошибка Connection reset
